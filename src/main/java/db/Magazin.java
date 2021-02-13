@@ -10,6 +10,7 @@ public class Magazin {
     private int id;
 // varianta cu map numar angajati, departam
    @ElementCollection
+   @CollectionTable(name = "departamente_magazin")
    private Map<Integer,String> departamente;
 
 
